@@ -159,8 +159,8 @@
       BuildContext context, String image, String name, String total, String available, Color color) {
     return Container(
       margin: EdgeInsets.only(left: 24),
-      width: 250,
-      height: 190,
+      width: 350,
+      height: 200,
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(16),
@@ -175,12 +175,12 @@
       child: Row(
         children: [
           Container(
-            width: 96,
-            height: 180,
+            width: 200,
+            height: 200,
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: AssetImage(image),
-                fit: BoxFit.fill,
+                fit: BoxFit.cover,
               ),
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(16),

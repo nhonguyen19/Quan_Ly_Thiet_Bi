@@ -170,6 +170,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "simple_animations",
+      "rootUri": "file:///C:/Users/MITS/AppData/Local/Pub/Cache/hosted/pub.dev/simple_animations-5.0.0+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///D:/HK5/LTDD/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -236,7 +242,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-04-19T15:53:53.950883Z",
+  "generated": "2023-04-22T00:02:26.526230Z",
   "generator": "pub",
   "generatorVersion": "2.19.4"
 }

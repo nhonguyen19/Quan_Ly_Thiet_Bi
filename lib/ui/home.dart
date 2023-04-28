@@ -1,11 +1,10 @@
-import 'package:devide_manager/ui/allDeviceScreen.dart';
+import 'package:devide_manager/ui/thiet_bi.dart';
 import 'package:devide_manager/ui/login.dart';
+import 'package:devide_manager/ui/don_vi.dart';
 import 'package:devide_manager/widget/widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
-
-
   @override
   State<HomePage> createState() => _HomePageState();
 }
@@ -23,43 +22,41 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Color(0xffF4F7FC),
       drawer: Drawer(
+        backgroundColor: Color(0xffF4F7FC),
         child: ListView(
           children: [
             const UserAccountsDrawerHeader(
               currentAccountPicture: CircleAvatar(
                 backgroundImage: AssetImage("assets/khoacntt.png"),
               ),
-              accountName: Text("neecoder x"),
-              accountEmail: Text("test@test.com"),
+              accountName: Text(
+                "neecoder x",
+                style: TextStyle(color: Colors.white, fontSize: 15),
+              ),
+              accountEmail: Text("test@test.com",
+                  style: TextStyle(color: Colors.white, fontSize: 15)),
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage("assets/logotruong.png"),
+                  image: AssetImage("assets/background.jpg"),
                   fit: BoxFit.cover,
                 ),
               ),
             ),
             ListTile(
-              leading: const Icon(Icons.login_rounded),
-              title: const Text('Đăng nhập'),
-              onTap: ()=>Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => LoginPage(),
-                        ),
-                      )
-            ),
+                leading: const Icon(Icons.login_rounded),
+                title: const Text('Đăng nhập'),
+                onTap: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => LoginPage(),
+                      ),
+                    )),
           ],
         ),
       ),
       appBar: AppBar(
         elevation: 0,
-
         backgroundColor: Colors.blue,
-        // leading: Icon(
-        //   Icons.menu,
-        //   color: Colors.black,
-          
-        // ),
         title: Text(
           'Quản lý thiết bị nhà trường',
           style: TextStyle(color: Colors.white),
@@ -126,7 +123,7 @@ class _HomePageState extends State<HomePage> {
               padding: EdgeInsets.symmetric(horizontal: 24),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children:  [
+                children: [
                   Text(
                     'Danh sách thiết bị',
                     style: const TextStyle(
@@ -139,7 +136,7 @@ class _HomePageState extends State<HomePage> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => DepartmentListScreen(),
+                          builder: (context) => Thiet_Bi(),
                         ),
                       );
                     },
@@ -193,7 +190,7 @@ class _HomePageState extends State<HomePage> {
             SizedBox(height: 24),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 24),
-              child: Flexible(
+              child: Flexible(  
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -204,13 +201,21 @@ class _HomePageState extends State<HomePage> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    Text(
-                      'Xem tất cả',
-                      style: TextStyle(
-                        color: Colors.blue,
-                        fontWeight: FontWeight.bold,
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Don_Vi()));
+                      },
+                      child: Text(
+                        'Xem tất cả',
+                        style: TextStyle(
+                          color: Colors.blue,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
-                    ),
+                    )
                   ],
                 ),
               ),
@@ -228,9 +233,50 @@ class _HomePageState extends State<HomePage> {
                     '60',
                     Colors.blue,
                   ),
+                    buildDepartmentItem(
+                    context,
+                    'assets/khoaCK.jpg',
+                    'Khoa Cơ khí',
+                    '80',
+                    '60',
+                    Colors.blue,
+                  ),
+                     buildDepartmentItem(
+                    context,
+                    'assets/khoaCKDL.png',
+                    'Khoa Cơ khí động lực',
+                    '80',
+                    '60',
+                    Colors.blue,
+                  ),
+                     buildDepartmentItem(
+                    context,
+                    'assets/khoaDT.png',
+                    'Khoa Điện - Điện tử',
+                    '80',
+                    '60',
+                    Colors.blue,
+                  ),
+                       buildDepartmentItem(
+                    context,
+                    'assets/khoaNhietLanh.jpg',
+                    'Khoa Nhiệt lạnh',
+                    '80',
+                    '60',
+                    Colors.blue,
+                  ),
                   buildDepartmentItem(
                     context,
-                    'assets/nganhketoan.jpg',
+                    'assets/bomonKinhte.jpg',
+                    'Khoa Kinh tế',
+                    '80',
+                    '60',
+                    Colors.blue,
+                  ),
+                  //update code tại chỗ này
+                    buildDepartmentItem(
+                    context,
+                    'assets/bomonKinhte.jpg',
                     'Khoa Kinh tế',
                     '80',
                     '60',
@@ -245,5 +291,4 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-
 

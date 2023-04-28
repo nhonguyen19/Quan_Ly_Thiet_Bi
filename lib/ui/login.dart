@@ -103,10 +103,7 @@ class _LoginPageState extends State<LoginPage> {
                             //_login();
                           }
                         },
-                        child: Text(
-                          'Đăng nhập',
-                          style: TextStyle(fontSize: 20),
-                        ),
+                        child: Text('Đăng nhập', style: TextStyle(fontSize: 20),),
                         style: ElevatedButton.styleFrom(
                           padding: EdgeInsets.symmetric(vertical: 20),
                           shape: RoundedRectangleBorder(
