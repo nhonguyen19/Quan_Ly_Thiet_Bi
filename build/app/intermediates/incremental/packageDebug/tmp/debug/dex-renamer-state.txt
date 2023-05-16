@@ -1,4 +1,4 @@
-#Sun Apr 23 11:02:29 ICT 2023
+#Mon May 15 22:14:05 ICT 2023
 base.0=D\:\\HK6\\Do_An_Tot_Nghiep\\devide_manager\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

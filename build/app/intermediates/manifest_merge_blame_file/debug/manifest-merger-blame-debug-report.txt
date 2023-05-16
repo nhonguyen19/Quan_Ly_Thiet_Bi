@@ -33,7 +33,7 @@
 25-->[androidx.core:core:1.9.0] C:\Users\MITS\.gradle\caches\transforms-3\5f80b20db3afa86c72a9766b008d752d\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 26        android:debuggable="true"
 27        android:icon="@mipmap/ic_launcher"
-28        android:label="devide_manager" >
+28        android:label="Device Manage" >
 29        <activity
 30            android:name="com.example.devide_manager.MainActivity"
 31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

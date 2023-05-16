@@ -1,5 +1,5 @@
 import 'package:devide_manager/ui/them_thiet_bi.dart';
-import 'package:devide_manager/ui/login.dart';
+import 'package:devide_manager/ui/dang_nhap.dart';
 import 'package:flutter/material.dart';
 
 class Thiet_Bi extends StatelessWidget {

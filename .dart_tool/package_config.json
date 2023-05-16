@@ -87,9 +87,9 @@
     },
     {
       "name": "http",
-      "rootUri": "file:///C:/Users/MITS/AppData/Local/Pub/Cache/hosted/pub.dev/http-0.13.5",
+      "rootUri": "file:///C:/Users/MITS/AppData/Local/Pub/Cache/hosted/pub.dev/http-0.13.6",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.19"
     },
     {
       "name": "http_parser",
@@ -242,7 +242,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-04-22T00:02:26.526230Z",
+  "generated": "2023-05-11T19:38:03.151095Z",
   "generator": "pub",
   "generatorVersion": "2.19.4"
 }

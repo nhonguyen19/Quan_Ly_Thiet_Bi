@@ -1,19 +1,35 @@
 [
     {
-        "merged": "com.example.devide_manager.app-merged_res-18:/drawable-v21_launch_background.xml.flat",
-        "source": "com.example.devide_manager.app-main-12:/drawable-v21/launch_background.xml"
+        "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.devide_manager.app-main-12:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.devide_manager.app-merged_res-18:/drawable_launch_background.xml.flat",
-        "source": "com.example.devide_manager.app-main-12:/drawable/launch_background.xml"
+        "merged": "C:\\Users\\MITS\\.gradle\\daemon\\7.5\\com.example.devide_manager.app-merged_res-18:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\MITS\\.gradle\\daemon\\7.5\\com.example.devide_manager.app-main-12:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\MITS\\.gradle\\daemon\\7.5\\com.example.devide_manager.app-merged_res-18:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\MITS\\.gradle\\daemon\\7.5\\com.example.devide_manager.app-main-12:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.devide_manager.app-main-12:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
         "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "com.example.devide_manager.app-main-12:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.example.devide_manager.app-main-12:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.devide_manager.app-main-12:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-ldpi_ic_launcher.png.flat",
+        "source": "com.example.devide_manager.app-main-12:/mipmap-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.devide_manager.app-main-12:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-xxhdpi_ic_launcher.png.flat",
@@ -26,5 +42,61 @@
     {
         "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "com.example.devide_manager.app-main-12:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.devide_manager.app-main-12:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\MITS\\.gradle\\daemon\\7.5\\com.example.devide_manager.app-merged_res-18:\\drawable-v21_launch_background.xml.flat",
+        "source": "C:\\Users\\MITS\\.gradle\\daemon\\7.5\\com.example.devide_manager.app-main-12:\\drawable-v21\\launch_background.xml"
+    },
+    {
+        "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.devide_manager.app-main-12:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.devide_manager.app-main-12:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.devide_manager.app-main-12:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.devide_manager.app-main-12:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.devide_manager.app-main-12:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MITS\\.gradle\\daemon\\7.5\\com.example.devide_manager.app-merged_res-18:\\drawable_launch_background.xml.flat",
+        "source": "C:\\Users\\MITS\\.gradle\\daemon\\7.5\\com.example.devide_manager.app-main-12:\\drawable\\launch_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\MITS\\.gradle\\daemon\\7.5\\com.example.devide_manager.app-merged_res-18:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\MITS\\.gradle\\daemon\\7.5\\com.example.devide_manager.app-main-12:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.devide_manager.app-main-12:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\MITS\\.gradle\\daemon\\7.5\\com.example.devide_manager.app-merged_res-18:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\MITS\\.gradle\\daemon\\7.5\\com.example.devide_manager.app-main-12:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\MITS\\.gradle\\daemon\\7.5\\com.example.devide_manager.app-merged_res-18:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\MITS\\.gradle\\daemon\\7.5\\com.example.devide_manager.app-main-12:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.devide_manager.app-main-12:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.devide_manager.app-merged_res-18:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.devide_manager.app-main-12:/mipmap-xhdpi/ic_launcher_round.png"
     }
 ]
